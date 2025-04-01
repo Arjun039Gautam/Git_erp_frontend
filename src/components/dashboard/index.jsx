@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from './style'
 
-const Profile = () => {
+const Dashboard = () => {
 
     
   return (
@@ -11,4 +11,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
+export default Dashboard
