@@ -1,10 +1,9 @@
 import React from 'react'
+import Login from './components/login'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <Login/>
   )
 }
 

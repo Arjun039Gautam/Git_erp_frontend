@@ -6,7 +6,7 @@ const Attendance = () => {
     
   return (
     <Wrapper>
-
+      
     </Wrapper>
   )
 }
