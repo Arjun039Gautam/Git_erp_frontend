@@ -18,13 +18,21 @@ margin: 0;
     padding: 6px 8px
     
     }
-    input:hover{
     display:block;
      width : 100%;
     padding : 8px;
     margin : 2px 0;
     box-sizing: border-box;
     }
+    .logo {
+      width: 100px;
+      height: auto;
+      background-image: url('photo.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+}
+
     
     
 `
