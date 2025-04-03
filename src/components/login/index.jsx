@@ -5,7 +5,7 @@ const Login = ({setLoginUser}) => {
   const[Username,setUsername]= useState('')
   const[password,setPassword]= useState('')
   const Login = () =>{
-    const Name = " Ansh1234";
+    const Name = " Ansh";
     localStorage.setItem("username", Name);
     localStorage.setItem("password", password);
     alert("Logged in!")
