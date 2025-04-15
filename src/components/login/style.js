@@ -1,40 +1,39 @@
 import styled from "styled-components";
+import photo from './photo.jpg'
 
 const Wrapper = styled.div`
-background-color:pink;
-margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    font-size: 16px;
-    h1{
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+
+  h1 {
     font-size: 1.2rem;
     text-align: center;
-    padding: 0px 0px 10px;
-    margin: 10px 0px;
-    }
-    form{
-    font-size 14px Arial,sans-serif;
-    padding: 6px 8px
-    
-    }
-    display:block;
-     width : 100%;
-    padding : 8px;
-    margin : 2px 0;
-    box-sizing: border-box;
-    }
-    .logo {
-      width: 100px;
-      height: auto;
-      background-image: url('photo.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: block;
-}
+    padding: 0 0 10px;
+    margin: 10px 0;
+  }
 
-    
-    
-`
+  form {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    padding: 6px 8px;
+  }
 
-export default Wrapper
+  .logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(${photo});
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+  }
+`;
+
+export default Wrapper;
